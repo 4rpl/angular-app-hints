@@ -1,0 +1,108 @@
+.angular-app-hints__overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.angular-app-hints__shadow {
+    position: absolute;
+}
+
+.angular-app-hints__shadow-inner {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 4400px rgba(0,0,0,.6);
+}
+
+.angular-app-hints__shadow-top-left {
+    transform: translate(0, -100%);
+}
+
+.angular-app-hints__shadow-top-right {
+    transform: translate(-100%, -100%);
+}
+
+.angular-app-hints__shadow-bottom-left {
+    transform: translate(0, 0);
+}
+
+.angular-app-hints__shadow-bottom-right {
+    transform: translate(-100%, 0);
+}
+
+.angular-app-hints__menu-top-left {
+    transform: translate(0, 0);
+}
+
+.angular-app-hints__menu-top-right {
+    transform: translate(-100%, 0);
+}
+
+.angular-app-hints__menu-bottom-left {
+    transform: translate(0, -100%);
+}
+
+.angular-app-hints__menu-bottom-right {
+    transform: translate(-100%, -100%);
+}
+
+.angular-app-hints__menu {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: absolute;
+}
+
+.angular-app-hints__menu-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,.85);
+    box-shadow: 0 0 10px 4px rgba(0,0,0,.4);
+}
+
+.angular-app-hints__message {
+    color: #fff;
+    margin-bottom: 12px;
+    padding: 0 8px;
+    width: 300px;
+}
+
+.angular-app-hints__footer {
+    display: flex;
+}
+
+.angular-app-hints__button + .angular-app-hints__button {
+    margin-left: 4px;
+}
+
+.angular-app-hints__button {
+    color: #fff;
+    cursor: pointer;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,.8);
+    flex-grow: 1;
+}
+
+.angular-app-hints__container {
+    position: absolute;
+    z-index: 1;
+    width: 0;
+    height: 0;
+}
+
+.angular-app-hints__container-animations {
+    transition: all ease-in-out .3s;
+}
+
+.angular-app-hints__container-animations .angular-app-hints__shadow {
+    transition: all ease-in-out .3s;
+}
+
+.angular-app-hints__container-animations .angular-app-hints__menu {
+    transition: transform ease-in-out .3s;
+}
