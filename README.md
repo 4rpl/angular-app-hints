@@ -16,12 +16,12 @@ TODO
 All interaction is carried out through `AngularAppHintsService`.
 
 ### AngularAppHintsService
-- `setConfig(config: Partial<AngularAppHintsConfig>): void`: sets a common configuration. See defalut values in <a href="#types-id">Types section</a>.
+- `setConfig(config: Partial<AngularAppHintsConfig>): void`: sets a common configuration. See defalut values in <a href="#types">Types section</a>.
 - `setPath(path: Path): void`: sets a path for next walkthrough.
 - `go(): void`: starts the walkthrough.
 - `close(): void`: closes the walkthrough.
 
-### Types {#types-id}
+### Types
 
 #### AngularAppHintsConfig
 |Property|Type|Default Value|
@@ -35,7 +35,7 @@ All interaction is carried out through `AngularAppHintsService`.
 |`scrollIntoViewOptions`|ScrollIntoViewOptions|`{ behavior: 'smooth', block: 'center', inline: 'center' }`|
 
 #### Path
-```
+```typescript
 type Path = PathElement[];
 ```
 
@@ -63,7 +63,7 @@ type Path = PathElement[];
 
 
 ### Basic Example
-```
+```typescript
 export class MyComponent {
 
   constructor(
