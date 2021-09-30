@@ -1,6 +1,6 @@
 {
-  "name": "ws",
-  "version": "0.0.0",
+  "name": "angular-hints-mode",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve app",
