@@ -1,12 +1,9 @@
 import { Inject, Injectable } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 
-export type HintPosition = 'top' | 'bottom' | 'left' | 'right';
-
 export interface PathElement {
   readonly selector: string;
   readonly message: string;
-  readonly position?: HintPosition;
   readonly disableClose?: boolean;
   readonly style?: {
     readonly padding?: number;
