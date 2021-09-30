@@ -1,4 +1,4 @@
-# Angular Hints Mode
+# Angular App Hints
 Walkthrough/hints mode for Angular Applications.
 
 ## Demo
@@ -6,7 +6,7 @@ TODO
 
 ## Installation
 ```
-npm i angular-hints-mode --save
+npm i angular-app-hints --save
 ```
 
 ## Requirements
