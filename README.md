@@ -1,4 +1,9 @@
-# Angular Hints Mode
+[![npm version](https://badge.fury.io/js/angular-app-hints.svg)](https://badge.fury.io/js/angular-app-hints)
+[![Downloads](https://img.shields.io/npm/dm/angular-app-hints.svg)](https://www.npmjs.com/package/angular-app-hints)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/4rpl/angular-app-hints/master/LICENSE.md)
+
+
+# Angular App Hints
 Walkthrough/hints mode for Angular Applications.
 
 ## Demo
@@ -6,7 +11,7 @@ TODO
 
 ## Installation
 ```
-npm i angular-hints-mode --save
+npm i angular-app-hints --save
 ```
 
 ## Requirements
