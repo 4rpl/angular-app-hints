@@ -4,8 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve app",
-    "build-lib": "ng build angular-app-hints --watch",
+    "build-lib": "ng build angular-app-hints --configuration production",
     "watch-lib": "ng build --watch --configuration development",
+    "publish": "cd ./dist/angular-app-hints && npm publish",
     "test": "ng test"
   },
   "private": true,
